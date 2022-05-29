@@ -34,6 +34,7 @@
 
 .value-item {
     background-color: #14213D;
+    box-shadow: rgba(0, 0, 0, 0.3) 0px 19px 38px, rgba(0, 0, 0, 0.22) 0px 15px 12px;
     min-width: 15vw;
     max-width: 20vw;
     padding: 2vw;
