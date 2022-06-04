@@ -33,7 +33,7 @@ html, body, #main, #container {
     content:url("/img/black-logo.png");
     width: 32px;
 }
-#nav a, #hero a, #values a {
+a {
     text-decoration: none;
     color: inherit;
 }
@@ -44,25 +44,49 @@ html, body, #main, #container {
     margin-bottom: 16px;
 }
 
-.text {
-    margin-top: 8px;
-    margin-bottom: 8px;
-    font-weight: normal;
+.small {
+    font-size: 1vw;
+}
+
+.med-small {
+    font-size: 1.5vw;
+}
+
+.medium {
     font-size: 2vw;
 }
 
-.text-big {
-    margin-top: 8px;
-    margin-bottom: 8px;
-    font-weight: 200;
+.large {
+    font-size: 3vw;
+}
+
+.xlarge {
     font-size: 4vw;
 }
 
-.text-light {
+.normal {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.light {
+    font-weight: 200;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.text {
     margin-top: 8px;
     margin-bottom: 8px;
-    font-weight: 200;
-    font-size: 1.5vw; 
 }
 
 .button {
