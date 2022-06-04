@@ -33,7 +33,7 @@ html, body, #main, #container {
     content:url("/img/black-logo.png");
     width: 32px;
 }
-#nav a, #hero a {
+#nav a, #hero a, #values a {
     text-decoration: none;
     color: inherit;
 }

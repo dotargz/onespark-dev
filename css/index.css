@@ -9,7 +9,7 @@
 }
 
 #values {
-    height: calc(100vh - var(--nav-height));
+    height: calc(100vh + var(--nav-height));
     background-color: #111C35;
     color: #fff;
     display: flex;
@@ -45,4 +45,24 @@
 
 #values-text {
     margin-bottom: 6vh;
+}
+
+#about {
+    height: calc(100vh + var(--nav-height));
+    background-color: #14213D;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+#contact {
+    height: calc(100vh + var(--nav-height));
+    background-color: #111C35;
+    color: #fff;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
 }
