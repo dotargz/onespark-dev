@@ -1,15 +1,17 @@
 * {
-    --nav-height: 75px;
+    --nav-height: 4vw;
 }
 html, body, #main, #container {
-    width: 100%;
-    height: 100%;
+    width: 100vw;
+    height: 100vh;
     background-color: #14213D;
     font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
 }
 
 #nav {
     height: var(--nav-height);
+    width: 100vw;
     background-color: #111C35;
     color: #ffffff;
     display: flex;
@@ -36,12 +38,6 @@ html, body, #main, #container {
 a {
     text-decoration: none;
     color: inherit;
-}
-.header {
-    font-size: 10vw;
-    font-weight: 800;
-    margin-top: 16px;
-    margin-bottom: 16px;
 }
 
 .small {
@@ -102,41 +98,48 @@ a {
     border-radius: 2vh;
 }
 
-.header-2 {
-    font-size: 8vw;
-    font-weight: 800;
-    margin-top: 12px;
-    margin-bottom: 12px; 
-}
-
-.header-3 {
-    font-size: 7vw;
-    font-weight: 800;
-    margin-top: 12px;
-    margin-bottom: 12px; 
-}
-
-.header-4 {
-    font-size: 6vw;
-    font-weight: 800;
-    margin-top: 12px;
-    margin-bottom: 12px; 
-}
-
-.header-5 {
-    font-size: 5vw;
-    font-weight: 800;
-    margin-top: 12px;
-    margin-bottom: 12px; 
-}
-
-.header-6 {
+h1 {
     font-size: 4vw;
     font-weight: 800;
+    margin-top: 16px;
+    margin-bottom: 16px;
+}
+
+h2 {
+    font-size: 3vw;
+    font-weight: 800;
     margin-top: 12px;
     margin-bottom: 12px; 
 }
 
+h3 {
+    font-size: 2vw;
+    font-weight: 800;
+    margin-top: 8px;
+    margin-bottom: 8px; 
+}
+
+h4 {
+    font-size: 1vw;
+    font-weight: 800;
+    margin-top: 4px;
+    margin-bottom: 4px; 
+}
+
+h5 {
+    font-size: 0.5vw;
+    font-weight: 800;
+}
+
+h6 {
+    font-size: 0.1vw;
+    font-weight: 800;
+}
+
+p {
+    font-size: 1vw;
+    font-weight: 400;
+}
 
 
 /* custom scrollbar */
