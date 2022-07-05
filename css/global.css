@@ -1,3 +1,9 @@
+@tailwind base;
+
+@tailwind components;
+
+@tailwind utilities;
+
 html, body, #container {
     width: 100vw;
     height: 100vh;
@@ -55,3 +61,7 @@ html, body, #container {
   .button-62:not([disabled]):hover {
     box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
   }
+
+.button-disabled {
+    background: linear-gradient(to bottom right, #495057, #adb5bd);
+}
