@@ -1,166 +1,57 @@
-* {
-    --nav-height: 4vw;
-}
-html, body, #main, #container {
+html, body, #container {
     width: 100vw;
     height: 100vh;
-    background-color: #14213D;
+    background-color: rgb(245, 245, 250);
     font-family: 'Poppins', sans-serif;
     scroll-behavior: smooth;
 }
 
-#nav {
-    height: var(--nav-height);
-    width: 100vw;
-    background-color: #111C35;
-    color: #ffffff;
+#container {
     display: flex;
+    flex-direction: column;
     align-items: center;
-    justify-content: space-evenly;
+    justify-content: center;
 }
 
-.nav-item {
-    background-color: inherit;
+#main {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+    border-radius: 25px;
+    height: fit-content;
+    padding: 1vh;
+    max-width: min-content;
+    padding: 3vh;
+    padding-left: 4vh;
+    padding-right: 4vh;
+}
+
+
+/* CSS */
+.button-62 {
+    background: linear-gradient(to bottom right, #EF4765, #FF9A5A);
+    border: 0;
+    border-radius: 12px;
+    color: #FFFFFF;
+    cursor: pointer;
+    display: inline-block;
+    font-family: -apple-system,system-ui,"Segoe UI",Roboto,Helvetica,Arial,sans-serif;
     font-size: 16px;
-    font-weight: bold;
-    border-radius: 10px;
-    padding: 10px;
-}
-
-.nav-item:hover {
-    background-color: white;
-    color: #111C35;
-}
-#nav-logo:hover {
-    content:url("/img/black-logo.png");
-    width: 32px;
-}
-a {
+    font-weight: 500;
+    line-height: 2.5;
+    outline: transparent;
+    padding: 0 1rem;
+    text-align: center;
     text-decoration: none;
-    color: inherit;
-}
-
-.small {
-    font-size: 1vw;
-}
-
-.med-small {
-    font-size: 1.5vw;
-}
-
-.medium {
-    font-size: 2vw;
-}
-
-.large {
-    font-size: 3vw;
-}
-
-.xlarge {
-    font-size: 4vw;
-}
-
-.normal {
-    font-weight: normal;
-}
-
-.bold {
-    font-weight: bold;
-}
-
-.light {
-    font-weight: 200;
-}
-
-.left {
-    text-align: left;
-}
-
-.right {
-    text-align: right;
-}
-
-.text {
-    margin-top: 8px;
-    margin-bottom: 8px;
-}
-
-.button {
-    margin-top: 4vh;
-    padding-top: 2vh;
-    padding-bottom: 2vh;
-    padding-left: 4.5vh;
-    padding-right: 4.5vh;
-    font-weight: bold;
-    font-size: 24px;
-    color: white;
-    background-color: #FCA311;
-    border-radius: 2vh;
-}
-
-h1 {
-    font-size: 4vw;
-    font-weight: 800;
-    margin-top: 16px;
-    margin-bottom: 16px;
-}
-
-h2 {
-    font-size: 3vw;
-    font-weight: 800;
-    margin-top: 12px;
-    margin-bottom: 12px; 
-}
-
-h3 {
-    font-size: 2vw;
-    font-weight: 800;
-    margin-top: 8px;
-    margin-bottom: 8px; 
-}
-
-h4 {
-    font-size: 1vw;
-    font-weight: 800;
-    margin-top: 4px;
-    margin-bottom: 4px; 
-}
-
-h5 {
-    font-size: 0.5vw;
-    font-weight: 800;
-}
-
-h6 {
-    font-size: 0.1vw;
-    font-weight: 800;
-}
-
-p {
-    font-size: 1vw;
-    font-weight: 400;
-}
-
-
-/* custom scrollbar */
-::-webkit-scrollbar {
-    width: 20px;
+    transition: box-shadow .2s ease-in-out;
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    white-space: nowrap;
   }
   
-  ::-webkit-scrollbar-track {
-    background-color: #14213D;
+  .button-62:not([disabled]):focus {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
   }
   
-  ::-webkit-scrollbar-thumb {
-    background-color: #fff;
-    border-radius: 20px;
-    border: 6px solid transparent;
-    background-clip: content-box;
+  .button-62:not([disabled]):hover {
+    box-shadow: 0 0 .25rem rgba(0, 0, 0, 0.5), -.125rem -.125rem 1rem rgba(239, 71, 101, 0.5), .125rem .125rem 1rem rgba(255, 154, 90, 0.5);
   }
-  
-  ::-webkit-scrollbar-thumb:hover {
-    background-color: #fff;
-  }
-
-
-/* MEDIA QUERIES GO HERE */

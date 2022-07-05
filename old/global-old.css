@@ -1,0 +1,165 @@
+* {
+    --nav-height: 4vw;
+    --max-font-size: 4vw;
+}
+html, body, #main, #container {
+    width: 100vw;
+    height: 100vh;
+    background-color: #14213D;
+    font-family: 'Poppins', sans-serif;
+    scroll-behavior: smooth;
+}
+
+#nav {
+    height: var(--nav-height);
+    width: 100vw;
+    background-color: #111C35;
+    color: #ffffff;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+}
+
+.nav-item {
+    background-color: inherit;
+    font-size: calc(var(--max-font-size) - 3vw);
+    -webkit-transition: 0.5s;
+    transition: 0.5s;
+    font-weight: bold;
+    border-radius: 0.5vw;
+    padding: 0.5vw;
+}
+
+.nav-item:hover {
+    background-color: white;
+    color: #111C35;
+}
+
+#nav-logo {
+    content:url("/img/white-logo.webp");
+    width: 32px;
+}
+
+#nav-logo:hover {
+    content:url("/img/black-logo.png");
+    width: 32px;
+}
+a {
+    text-decoration: none;
+    color: inherit;
+}
+
+.normal {
+    font-weight: normal;
+}
+
+.bold {
+    font-weight: bold;
+}
+
+.light {
+    font-weight: 200;
+}
+
+.left {
+    text-align: left;
+}
+
+.right {
+    text-align: right;
+}
+
+.button {
+    margin-top: 2vw;
+    padding-top: 1vw;
+    padding-bottom: 1vw;
+    padding-left: 2vw;
+    padding-right: 2vw;
+    font-weight: bold;
+    font-size: 1.5vw;
+    color: white;
+    background-color: #FCA311;
+    border-radius: 1vw;
+}
+
+h1 {
+    font-size: calc(var(--max-font-size));
+    font-weight: 800;
+    margin-top: 0.6vw;
+    margin-bottom: 1vw;
+}
+
+h2 {
+    font-size: calc(var(--max-font-size) - 1vw);
+    font-weight: 800;
+    margin-top: 0.5vw;
+    margin-bottom: 0.5vw; 
+}
+
+h3 {
+    font-size: calc(var(--max-font-size) - 2vw);
+    font-weight: 800;
+    margin-top: 0.4vw;
+    margin-bottom: 0.4vw; 
+}
+
+h4 {
+    font-size: calc(var(--max-font-size) - 3vw);
+    font-weight: 800;
+    margin-top: 0.3vw;
+    margin-bottom: 0.3vw; 
+}
+
+h5 {
+    font-size: calc(var(--max-font-size) - 3.5vw);
+    font-weight: 800;
+    margin-top: 0.2vw;
+    margin-bottom: 0.2vw; 
+}
+
+h6 {
+    font-size: calc(var(--max-font-size) - 3.6vw);
+    font-weight: 800;
+    margin-top: 0.2vw;
+    margin-bottom: 0.2vw; 
+}
+
+p {
+    font-size: 1vw;
+    font-weight: 400;
+}
+
+
+/* custom scrollbar */
+::-webkit-scrollbar {
+    width: 20px;
+  }
+  
+  ::-webkit-scrollbar-track {
+    background-color: #14213D;
+  }
+  
+  ::-webkit-scrollbar-thumb {
+    background-color: #fff;
+    border-radius: 20px;
+    border: 6px solid transparent;
+    background-clip: content-box;
+  }
+  
+  ::-webkit-scrollbar-thumb:hover {
+    background-color: #fff;
+  }
+
+
+/* MEDIA QUERIES GO HERE */
+
+/* Smartphones (portrait and landscape) ----------- */
+@media only screen
+and (min-width : 320px)
+and (max-width : 480px) {
+/* Styles */
+* {
+    --nav-height: 16vw;
+    --max-font-size: 6vw;
+}
+}
