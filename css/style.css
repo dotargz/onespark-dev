@@ -46,7 +46,8 @@
 }
 
 .section {
-    padding: 1rem;
+    padding-top: 1rem;
+    padding-bottom: 1rem;
     border-bottom: rgba(229, 231, 235, 0.1) 1px solid;
 }
 
@@ -65,7 +66,7 @@
     background-position: center;
     background-repeat: no-repeat;
     min-height: 100vh;
-    width: 100vw;
+    max-width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -90,7 +91,7 @@
 
 #about {
     min-height: 75vh;
-    width: 100vw;
+    max-width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -215,7 +216,7 @@ a.btn {
 
 #projects {
     min-height: 75vh;
-    width: 100vw;
+    max-width: 100vw;
     display: flex;
     justify-content: center;
     align-items: center;
