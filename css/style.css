@@ -23,7 +23,8 @@
 }
 
 /* Navbar links */
-#nav-menu a, #nav-logo a {
+#nav-menu a,
+#nav-logo a {
     float: left;
     display: block;
     color: #848484;
@@ -33,7 +34,8 @@
 }
 
 /* Navbar links on mouse-over */
-#nav-menu a:hover, #nav-logo a:hover {
+#nav-menu a:hover,
+#nav-logo a:hover {
     color: #f2f2f2;
     transition: 0.5s;
 }
@@ -57,7 +59,6 @@
     top: 0;
     width: 100%;
 }
-
 
 /* Style the header, background should be a gradient from a dark grey to blue */
 #hero {
@@ -146,7 +147,6 @@ a.btn {
     border-radius: 0.25rem;
     transition: 0.5s;
     text-align: center;
-
 }
 
 #nav-join-button a.btn {
@@ -235,7 +235,6 @@ a.btn {
     color: #aeaeae;
 }
 
-
 #project-cards {
     display: flex;
     justify-content: center;
@@ -270,3 +269,25 @@ a.btn {
 .logo {
     font-size: 1.5rem;
 }
+
+
+::-webkit-scrollbar {
+    width: 6px;
+    height: 6px;
+    background-color: #131313;
+}
+::-webkit-scrollbar-track {
+    border-radius: 10px;
+    background: rgba(0, 0, 0, 0);
+}
+::-webkit-scrollbar-thumb {
+    border-radius: 10px;
+    background: #858585;
+}
+::-webkit-scrollbar-thumb:hover {
+    background: #858585;
+}
+::-webkit-scrollbar-thumb:active {
+    background: #6b6b6b;
+}
+
