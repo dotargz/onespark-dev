@@ -1,32 +1,120 @@
 <!DOCTYPE html>
 <html lang="en">
-  <head>
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>OneSpark: Lighting up the web ⚡</title>
-    <meta name="description" content="Creating a better web for everyone, everywhere"/>
-    <meta name="author" content="OneSpark LLC" />
-    <meta name="keywords" content="tech,technology,onespark,online,free,new,startup,software,blog" />
-    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="./css/reset.css" type="text/css" />
-    <link rel="stylesheet" href="./css/index.css" type="text/css" />
-    <meta charset="UTF-8" />
-  </head>
-  <body>
-    <div id="container">
-        <div id="main" class="whitespace-normal subpixel-antialiased break-words flex flex-col space-y-4">
-            <h1 class="text-5xl font-black pr-20">OneSpark</h1>
-            <p class="text-base font-light">Empowering the next generation of developers with smart products and services aimed at everyone.</p>
-            <div class="flex flex-row w-96 flex-wrap">
-            <a href="https://citrus.lol/invite"><button class="button-62 mr-2 mb-2" role="button">Citrus: Community</button></a>
-            <a href="https://blueskye.dev"><button class="button-62 mr-2 mb-2" role="button">Founder: BlueSkye</button></a>
-            <a href="https://kyno.social/"><button class="button-62 mr-2 mb-2" role="button">Kynosocial</button></a>
-            <a href="https://edu.onespark.dev/"><button class="button-62 button-disabled mr-2 mb-2" role="button" disabled>OneSpark: EDU</button></a>
+    <head>
+        <meta charset="UTF-8" />
+        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <title>OneSpark - Lighting Up The Internet</title>
+        <link rel="stylesheet" href="css/normalize.css" />
+        <link rel="stylesheet" href="css/style.css" />
+        <script src="https://kit.fontawesome.com/9cb2f2488a.js" crossorigin="anonymous"></script>
+    </head>
+    <body>
+        <nav id="navbar" class="sticky">
+            <div id="nav-logo">
+                <a href="index.html">
+                    <span class="gradient-text logo">OneSpark</span>
+                </a>
+            </div>
+            <div id="nav-menu">
+                <a href="#hero">Home</a>
+                <a href="#about">About</a>
+                <a href="#projects">Projects</a>
+                <a href="https://status.onespark.dev" target="_blank">Status <i class="fa-solid fa-square-up-right"></i></a>
+            </div>
+            <div id="nav-join-button">
+                <a href="https://citrus.lol/invite" class="btn">Join Our Discord</a>
+            </div>
+        </nav>
+        <div class="content">
+            <div id="hero" class="section">
+                <div id="hero-text">
+                    <h1>
+                        Lighting Up The
+                        <span class="gradient-text">Internet</span>
+                    </h1>
+                    <p>
+                        OneSpark is empowering the next generation of developers
+                        with smart products and services aimed at everyone.
+                    </p>
+                    <a href="#about" class="btn">Learn More</a>
+                </div>
+            </div>
+            <div id="about" class="section">
+                <div id="about-text">
+                    <h1>About <span class="gradient-text">Us</span></h1>
+                    <p>
+                        OneSpark was founded in 2020 by a group of web
+                        developers who wanted to create a company that would
+                        provide high quality web development services to
+                        businesses and individuals. We are a small company, but
+                        we are dedicated to providing the best service possible.
+                    </p>
+                </div>
+                <div id="about-cards">
+                    <div class="card">
+                        <img src="img/blueskye.png" alt="BlueSkye" width="128px" />
+                        <h3>BlueSkye, CEO</h3>
+                    </div>
+                    <div class="card">
+                        <span class="card-icon">
+                            <i class="fa-solid fa-users"></i>
+                        </span>
+                        <h3><span class="gradient-text">130+</span> Users Globally</h3>
+                    </div>
+                    <div class="card">
+                        <span class="card-icon">
+                            <i class="fa-solid fa-gauge-high"></i>
+                        </span>
+                        <h3><span class="gradient-text">98%</span> Uptime</h3>
+                    </div>
+                    <div class="card">
+                        <span class="card-icon">
+                            <i class="fa-solid fa-hourglass-half"></i>
+                        </span>
+                        <h3>Founded in <span class="gradient-text">2020</span></h3>
+                    </div>
+                    
+                </div>
+            </div>
+            <div id="projects" class="section">
+                <div id="projects-text">
+                    <h1>Our <span class="gradient-text">Projects</span></h1>
+                    <p>We have worked on many projects over the years. Here are some of our favorites.</p>
+                </div>
+                <div id="project-cards">
+                    <div class="project-card">
+                        <img src="img/citrus.png" alt="Citrus: Community logo" />
+                        <h3>Citrus: Community</h3>
+                        <p>
+                            Probably the most chill coding/development community on discord!
+                        </p>
+                        <a href="https://citrus.lol" target="_blank" class="btn">Learn More <i class="fa-solid fa-square-up-right"></i></a>
+                    </div>
+                    <div class="project-card">
+                        <img src="img/hazel.png" alt="Hazelbot" />
+                        <h3>Hazelbot</h3>
+                        <p>
+                            An advanced Discord chatbot that uses a Generative Pretrained Transformer to generate responses.
+                        </p>
+                        <a href="https://citrus.lol/invite" target="_blank" class="btn">Learn More <i class="fa-solid fa-square-up-right"></i></a>
+                    </div>
+                    <div class="project-card">
+                        <img src="img/soup.png" alt="Soupgle" />
+                        <h3>Soupgle</h3>
+                        <p>
+                            A silly search engine that determines if a given item is soup or not. It does not provide very accurate results.
+                        </p>
+                        <a href="https://soupgle.com" target="_blank" class="btn">Learn More <i class="fa-solid fa-square-up-right"></i></a>
+                    </div>
+                </div>
             </div>
         </div>
-    </div>
-    <script src="https://kit.fontawesome.com/9cb2f2488a.js" crossorigin="anonymous"></script>
-  </body>
+        <footer>
+            <div id="footer-text">
+                <p>&copy; 2022 OneSpark. All Rights Reserved.</p>
+            </div>
+        </footer>
+    </body>
+    <script src="js/script.js"></script>
 </html>
